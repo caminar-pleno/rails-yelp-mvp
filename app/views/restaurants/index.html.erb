@@ -5,4 +5,4 @@
     <%= link_to  "borrar", restaurant_path(restaurant.id), method: :delete, data: { confirm: "estas seguro?" } %>
   <% end %>
 </ul>
-<p><%= link_to  "New restaurants", new_restaurant_path %></p>
+<p><%= link_to "New restaurants", new_restaurant_path, class: "btn btn-primary"%></p>
